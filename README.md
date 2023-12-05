@@ -79,6 +79,7 @@ Note that you *do not* need to build pyRenamer in order to run it. pyRenamer can
 ```sh
 $ bin/pyrenamer
 ```
+If Python complains about missing `glib-compile-resources` when running pyRenamer from the source directory, please install `libglib2.0-dev-bin` (for Debian-based Linux systems).
 
 
 ## Running
